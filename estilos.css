@@ -1,0 +1,143 @@
+body {
+    scroll-behavior: smooth;
+    background-color:blue;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.opcion {
+    color: white;
+}
+
+.opcion:hover {
+    color: cyan;
+    transition: 0.5s;
+}
+
+.titulo-banner {
+    font-size: 2rem;
+    color: cyan;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.titulo-clases {
+    color: cyan;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.color_boton {
+    background-color: white;
+    border: none;
+    color: blue;
+}
+
+.color_boton:hover {
+    background-color: cornflowerblue;
+    color:white;
+    transition: 0.5s;
+}
+
+.color_boton:visited {
+    background-color: cornflowerblue;
+}
+
+.fondo_tarjeta {
+    background-color: cyan;
+    color: blue;
+}
+
+.fondo_tarjeta h3 {
+    color: white;
+}
+
+.nosotros-texto {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.nosotros-texto span {
+    font-size: 1.10rem;
+    font-weight: 500;
+}
+
+.texto-clases {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.color-fondo {
+    background-color: cyan;
+}
+
+.texto-form {
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.texto-lista {
+    color: white;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.iconos {
+    font-size: 2rem;
+    color: #D92E1E;
+}
+
+.iconos:hover {
+    color: #d6d6d6;
+    transition: .5s;
+}
+
+.texto-derechos {
+    color: blue;
+    font-size: 2rem;
+}
+
+.boton_subir{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 2rem;
+    color: cyan;
+}
+
+.boton_subir:hover{
+    color: blue;
+    transition: .5s;
+}
+
+@media (max-width:768px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .titulo-banner {
+        font-size: 1.5rem;
+    }
+
+    .titulo-clases {
+        font-size: 1.25rem;
+    }
+
+    .color_boton {
+        font-size: 0.85rem;
+    }
+
+    
+}
