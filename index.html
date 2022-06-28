@@ -1,0 +1,522 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalina Suarez Galli - 2MT2B - 2022</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imagenes/logo.png">
+
+    <!--AOS-->
+   <link rel="stylesheet" href="https://michalsnik.github.io/aos/">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/003e8723d4.js" crossorigin="anonymous"></script>
+
+    <!--CSS propio-->
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-black" id="barra">
+            <div class="container">
+                <!--Logo-->
+                <a class="navbar-brand" href="#"><img src="imagenes/logo.png"  alt="logo" width="150"
+                        height="150"></a>
+                <!--Hamburguesa-->
+                <button class="navbar-toggler bg-dark color-hamburguesa" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#barra_navegacion" aria-controls="barra_navegacion" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Opciones-->
+                <div class="collapse navbar-collapse ms-5" id="barra_navegacion">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#fotos_carousel">Inicio</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#beneficios">Beneficios</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#clases">Clases</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#galeria">Galería</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link opcion" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Fin navbar-->
+    </header>
+
+    <main>
+        <!--inicio-->
+
+        <section>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8 mx-auto">
+
+                        <!--Carousel-->
+                        <div id="fotos_carousel" class="carousel slide home" data-bs-ride="false">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#fotos_carousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#fotos_carousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#fotos_carousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+
+                            <!--Primer imagen carousel-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imagenes/boxeo.jpg" class="d-block w-100 mx-auto" alt="boxeo">
+                                    <div class="carousel-caption d-block">
+                                        <h2 class="titulo-banner">descarga tus miedos y problemas</h2>
+                                        <button type="button" class="btn rounded-pill color_boton mt-3 mb-5">Consultá
+                                            con un
+                                            asesor</button>
+                                    </div>
+                                </div>
+
+                            <!--Segunda imagen carousel-->
+                                <div class="carousel-item">
+                                    <img src="imagenes/spinning.jpg" class="d-block w-100 mx-auto" alt="bici">
+                                    <div class="carousel-caption d-block">
+                                        <h2 class="titulo-banner">Entrenamiento para todos</h2>
+                                        <button type="button" class="btn rounded-pill color_boton mt-3 mb-5">Consultá
+                                            con un
+                                            asesor</button>
+                                    </div>
+                                </div>
+
+                            <!--Tercer imagen carousel-->
+                                <div class="carousel-item">
+                                    <img src="imagenes/funcional.jpg" class="d-block w-100 mx-auto" alt="funcional">
+                                    <div class="carousel-caption d-block">
+                                        <h2 class="titulo-banner">sali de tu zona de confort,animate!</h2>
+                                        <button type="button" class="btn rounded-pill color_boton mt-3 mb-5">Consultá
+                                            con un
+                                            asesor</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Botones carousel-->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#fotos_carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previo</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#fotos_carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Fin inicio-->
+
+        <!--Nosotros-->
+
+        <article>
+            <div id="nosotros" class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center mt-4 mb-3 titulo">Nosotros</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--Primer sector nosotros-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div data-aos="fade-right"
+                        class="col-xs-8 col-sm-10 col-md-8 col-lg-6 col-xl-4 d-block mx-auto my-auto">
+                        <img src="imagenes/imagen fondo.png" width="1200" height="800" alt="nosotros"
+                            class="img-fluid">
+                    </div>
+
+                    <div class="col-md-10 col-lg-6 col-xl-6">
+                        <p class="nosotros-texto">
+                            En este gimnasio, trataremos de<span> mejorar la calidad de vida de cada cliente que se presente</span> a través de la actividad fisica, a traves de la alimentacion saludable y tambièn desde trabajos no solo fisicos sino sensoriales luego de finalizar la actividad.
+                        </p>
+    
+                        <p class="nosotros-texto">
+                            No dudes en consultar cualquier duda que tengas y siempre acordate que el ejercicio no solo se
+                            tiene que hacer por temas de salu, sino que sirve para previenir enfermedades futuras y a la vez
+                            en personas con diabetes y asma, es el principal ejemplo de que teniendo enfermedades, con el
+                            ejercicio se sienten mucho mejor. <span>Animate!</span>
+                        </p>
+    
+                        <p class="nosotros-texto">
+                            Te brindaremos la mejor atención, equipamiento y todas nuestras ganas para que nos exprimas,
+                            saques lo mejor de nosotros y para que nosotros saquemos lo mejor de vos.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+           
+                </div>
+            </div>
+        </article>
+
+        <!--Fin nosotros-->
+
+        <!--beneficios-->
+
+        <section>
+
+            <div id="beneficios" class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center mt-4 mb-md-3 titulo">Beneficios</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container my-3">
+                <div class="row">
+
+                    <!--corazon-->
+                    <div data-aos="fade-right"
+                        class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="imagenes/corazon.png" class="card-img-top" alt="corazon">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">corazon</h3>
+                                <p class="card-text text-center">El deporte en general trae muchos beneficios a nivel cardiaco. Hoy esta mas comprobado que
+                                    personas que hacen mas ejercicios llegan a vivir mucho más que alguien sedentario
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--salud-->
+                    <div data-aos="fade-right"
+                        class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="imagenes/salud.png" class="card-img-top" alt="salud mental">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">salud mental</h3>
+                                <p class="card-text text-center"> El ejercicio es muy importante para la salud psicologica de quien realize la actividad
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--flexibilidad-->
+                    <div data-aos="fade-left"
+                        class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="imagenes/FLEXIBILIDAD.png" class="card-img-top" alt="FLEXIBILIDAD">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">flexibilidad</h3>
+                                <p class="card-text text-center">Mientras mas ejercicio hagas, adelgazes, mas facil te va a resultar, estirar los musculos y
+                                    eso conlleva a una mejor flexibilidad
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--quemar grasas-->
+                    <div data-aos="fade-left" class="col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block mx-auto my-2">
+                        <div class="card fondo_tarjeta rounded-4">
+                            <img src="imagenes/quemar.png" class="card-img-top" alt="asesoramiento">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">quemar grasas</h3>
+                                <p class="card-text text-center"> Quemar grasa, bajar volumen moscular o bajar de peso, es lo escencial en la gimnasia. Es elprimer objetivo que un cliente viene a buscar o conseguir <strong>Los ejercicios aerobicos y abdominales son lo primero que se busca para conseguirlo</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Fin beneficios-->
+
+            <!--Clases-->
+
+            <section>
+
+                <div class="container">
+
+                    <div id="clases" class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="text-center mt-4 mb-md-3 titulo">Clases</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--funcional-->
+                    <div class="row my-4 d-flex flex-md-row-reverse align-items-center">
+                        <div class="col-xs-6 col-md-6 col-lg-7 col-xxl-8">
+                            <h3 class="titulo-clases d-flex justify-content-center justify-content-md-start">Funcional
+                            </h3>
+                            <p class="texto-clases">Es un metodo de entrenamiento adaptable a la necesidad de cada persona, ademàs el entrenamientofuncional trabaja toda la parte de movilidad articular, corporal, ayuda con las postura, mejorala parte cardiovascular y fortalece la masa moscular</p>
+                        </div>
+
+                        <div data-aos="flip-left" class="col-xs-6 col-md-6 col-lg-5 col-xxl-4">
+                            <img src="imagenes/funcional.jpg" alt="crossfit-smart" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <!--boxeo-->
+                    <div class="row my-4 align-items-center">
+                        <div class="col-xs-6 col-md-6 col-lg-7 col-xxl-8">
+                            <h3 class="titulo-clases d-flex justify-content-center justify-content-md-start">
+                               Boxeo
+                            </h3>
+                            <p class="texto-clases">Este deporte se puede llevar a cabo de ambos formas,<span> la primera es la obvia, paraentrenar, aprender los conocimientos del boxeo </span>y la otra que es la mas utilizada,<span> es hacer boxeo, karate, judo o cualquier deporte de contacto, como una manera de descarga</span>.</p>
+                        </div>
+
+                        <div data-aos="flip-right" class="col-xs-6 col-md-6 col-lg-5 col-xxl-4">
+                            <img src="imagenes/boxeo.jpg" alt="culturismo" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <!--spinning-->
+                    <div class="row my-4 d-flex flex-md-row-reverse align-items-center">
+                        <div class="col-xs-6 col-md-6 col-lg-7 col-xxl-8">
+                            <h3 class="titulo-clases d-flex justify-content-center justify-content-md-start">
+                                Spinning</h3>
+                            <p class="texto-clases">Es un ejercicio aeróbico y cardiovascular que se realiza sobre una bicicleta estática en el que se trabaja el tren inferior: las piernas y los glúteos. Su finalidad principal es perder peso y la tonificación de los músculos, además de mejorar la fuerza y la resistencia.</p>
+                        </div>
+
+                        <div data-aos="flip-left" class="col-xs-6 col-md-6 col-lg-5 col-xxl-4">
+                            <img src="imagenes/spinning.jpg" alt="halterofilia" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+        <!--Fin clases-->
+
+        <!--Galería-->
+
+        <section>
+
+            <div class="container-fluid">
+
+                <div id="galeria" class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-center mt-4 mb-md-3 titulo">Galería</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--JS Galeria-->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="jquery.fancybox.min.js"></script>
+
+                <div class="row">
+
+                  
+
+                    <!--Imagen 2-->
+                    <div data-aos="flip-down" class="col-4 col-xl-2">
+                        <a href="imagenes/funcional ejercicio.jpg" data-fancybox="gallery" data-caption="Caption #2">
+                            <img src="imagenes/funcional ejercicio.jpg" alt="imagen2" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <!--Imagen 3-->
+                    <div data-aos="flip-up" class="col-4 col-xl-2">
+                        <a href="imagenes/bici-fija.png" data-fancybox="gallery" data-caption="Caption #3">
+                            <img src="imagenes/bici-fija.png" alt="imagen3" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <!--Imagen 4-->
+                    <div data-aos="flip-down" class="col-4 col-xl-2  my-xl-0 my-4">
+                        <a href="imagenes/objetos-boxeo.jpg" data-fancybox="gallery" data-caption="Caption #4">
+                            <img src="imagenes/objetos-boxeo.jpg" alt="imagen4" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <!--Imagen 5-->
+                    <div data-aos="flip-up" class="col-4 col-xl-2  my-xl-0 my-4">
+                        <a href="imagenes/cinta.jpg" data-fancybox="gallery" data-caption="Caption #5">
+                            <img src="imagenes/cinta.jpg"imagen5" class="img-fluid" />
+                        </a>
+                    </div>
+
+                    <!--Imagen 6-->
+                    <div data-aos="flip-down" class="col-4 col-xl-2 my-xl-0 my-4">
+                        <a href="imagenes/saco-boxeo.jpg" data-fancybox="gallery" data-caption="Caption #6">
+                            <img src="imagenes/saco-boxeo.jpg" alt="imagen6" class="img-fluid" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--Video-->
+                <div class="row">
+                    <div class="col-10 mx-auto my-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/r5hxmJi221s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreendata-aos="fade-up" data-aos-duration="1500"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Fin galería-->
+
+        <!--Contacto-->
+
+        <div class="container">
+
+            <div id="contacto" class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center mt-4 mb-md-3 titulo">Contacto</h2>
+                        <p class="texto-form">Envianos tu mensaje y nos contactaremos con vos enseguida</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Formulario-->
+
+            <form action="" class="row">
+
+                <!--Nombre-->
+                <div class="col-8 mx-auto my-2">
+                    <label for="nombres" class="form-label texto-form">Nombres (*)</label>
+                    <input type="text" class="form-control border-0" id="nombres" placeholder="Ingrese su nombre"
+                        required>
+                </div>
+
+                <!--Apellido-->
+                <div class="col-8 mx-auto my-2">
+                    <label for="apellidos" class="form-label texto-form">Apellidos (*)</label>
+                    <input type="text" class="form-control border-0" id="apellidos" placeholder="Ingrese su apellido"
+                        required>
+                </div>
+
+                <!--Email-->
+                <div class="col-8 mx-auto my-2">
+                    <label for="email" class="form-label texto-form">E-mail (*)</label>
+                    <input type="email" class="form-control border-0" id="email"
+                        placeholder="Ingrese su correo electrónico" required>
+                </div>
+
+                <!--Mensaje-->
+                <div class="col-8 mx-auto my-2">
+                    <label for="comentario" class="form-label texto-form">Dejanos tu comentario:</label>
+                    <textarea id="comentario" class="form-control border-0" rows="10"
+                        placeholder="Ingrese su comentario o mensaje" aria-describedby="maximos-caracteres"
+                        maxlength="480"></textarea>
+                    <div id="maximos-caracteres" class="form-text texto-form"> Máxima cantidad de caractéres: 480</div>
+                </div>
+
+                <!--Boton-->
+                <div class="col-8 mx-auto mt-3">
+                    <button class="btn btn-primary d-block mx-auto col-4 rounded-4 color_boton"
+                        type="submit">Enviar</button>
+                    <p class="d-block mx-auto col-5 mt-3 text-center texto-form">Todos los campos con (*) son
+                        obligatorios</p>
+                </div>
+
+            </form>
+
+        </div>
+
+        <!--Fin contacto-->
+
+        <!--Boton subir-->
+        <a href="#barra" class="d-none d-md-block boton_subir"><i class="fa-solid fa-circle-chevron-up"></i></a>
+
+        <!--Footer-->
+
+        <footer>
+            <div class="container-fluid color-fondo">
+                <div class="container">
+                    <div class="row d-flex flex-md-row-reverse">
+
+                        <!--Redes sociales-->
+                        <div class="col-12 col-md-6 my-4 my-md-0 d-flex justify-content-center justify-content-md-end align-items-center">
+                            <div id="redes-sociales">          
+                              <a href="https://www.instagram.com/ " target="_blank"><img src="imagenes/ig.png" alt="instagram" width="128" height="128"></a>
+                             <a href="https://www.facebook.com/" target="_blank"><img src="imagenes/face.png" alt="facebook" height="128" width="128"></a>
+                             <a href="https://twitter.com/home" target="_blank"><img src="imagenes/twitter.png" alt="twitter" width="128" height="128"></a>
+                            </div>
+                        </div>
+
+                        <hr class="d-block d-md-none">
+
+                        <!--Datos-->
+                        <div class="col-12 col-md-6 my-3 d-flex justify-content-center justify-content-md-start">
+                            <ul class="texto-lista text-center text-md-start">
+                                <li class="my-2">Catalina Suarez Galli</li>
+                                <li class="my-2">Maquetado y Desarrollo Web</li>
+                                <li class="my-2">DMT2B</li>
+                                <li class="my-2">2022</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--Derechos reservados-->
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center mt-md-4 mb-1">
+                            <p class="texto-derechos text-center">Todos los derechos reservados - FITNESS GYM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Fin footer-->
+
+    </main>
+
+    <!--Script AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Inicializando AOS-->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
